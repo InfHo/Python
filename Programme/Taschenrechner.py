@@ -1,6 +1,3 @@
-# Aus dem Python 3 Kurs der Initiative für Hochbegabung e.V. 
-# infho.eu
-
 # erstelle Funktion Taschenrechner mit Addition
 def taschenrechner_plu():
     # antwort und antwort2 ist das was als input eingegeben wird
