@@ -16,13 +16,13 @@ for zahl in range(1,1000):
     
     # setzte r (mit dem '%'-Zeichen) als den Restwert von (100+zahl)/255
     # dh die Zahl kann nie groesser als 255 werden!
-    r = (100 + zahl) % 255
+    r = (220 + zahl) % 255
     
     # setzte r (mit dem '%'-Zeichen) als den Restwert von (50 + 2*zahl)/255 
-    g = (50 + 2*zahl)%255
+    g = (50 + 4*zahl)%255
 
     #das ganze geht auch umgekehrt und mit anderen Zahlen:
-    b = (70 - zahl*5) % 255
+    b = (70 - zahl*2) % 255
     
     print("zahl=",zahl,"r=",r,"g=",g,"b=",b)
     schildi.color(r,g,b)
