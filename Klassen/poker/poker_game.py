@@ -1,18 +1,27 @@
 
-
+# definiere Kartenklasse
 class Karte:
 
+    # erstelle Liste mit Farben und Nummern
+    farben_namen = ["Pik", "Ass", "Herz", "Karo"]
+    nummern_namen = [None, 'Ass', '2','3','4','5','6','7','8',
+                     '9','10','Bube', 'Dame', 'König']
+
+    # initialisiere karten
     def __init__(self,farbe,nummer):
         self.farbe = farbe
         self.nummer = nummer
 
-farben_namen = ["Pik", "Ass", "Herz", "Karo"]
-nummern_namen = [None, 'Ass', '2','3','4','5','6','7','8',
-                 '9','10','Bube', 'Dame', 'König']
+    # printe die karten
+    def __str__(self):
+        return f'{Karte.farben_namen[self.farbe]}-{Karte.nummern_namen[self.nummer]}'
 
 
-neue_karte_1 = Karte(farben_namen[1], nummern_namen[4])
+# erstelle zwei Karten
+neue_karte_1 = Karte(1,3)
+neue_karte_2 = Karte(3,13)
 
-print(neue_karte_1.farbe)
-print(neue_karte_1.nummer)
 
+# printe die Karten
+print(neue_karte_1)
+print(neue_karte_2)
