@@ -69,16 +69,14 @@ ergebnis = a + b
 ### zum Durchzählen
 
 #### normaler for-Loop
-```
-python
+```python
 for aktuelleZahl in range(100):
   print(aktuelleZahl)
 ```
 
 
 #### umgekehrter for-Loop
-```
-python
+```python
 for aktuelleZahl in reversed(range(100)):
   print(aktuelleZahl)
 ```
