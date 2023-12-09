@@ -63,3 +63,22 @@ a = 33
 b = a-7
 ergebnis = a + b
 ```
+
+
+## Loops / Schleifen
+### zum Durchzählen
+
+#### normaler for-Loop
+```
+python
+for aktuelleZahl in range(100):
+  print(aktuelleZahl)
+```
+
+
+#### umgekehrter for-Loop
+```
+python
+for aktuelleZahl in reversed(range(100)):
+  print(aktuelleZahl)
+```
